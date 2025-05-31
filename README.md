@@ -1,6 +1,10 @@
 # Window API를 활용한 2D Pixel 게임 제작
 
+</br>
+
 <img src="./docs/Title.png" alt="Title" width="600px">
+
+</br>
 
 ## Ⅰ. 프로젝트 소개
 
