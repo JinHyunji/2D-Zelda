@@ -2,7 +2,7 @@
 
 </br>
 
-<img src="./docs/Title.png" alt="Title" width="600px">
+<img src="Title.png" alt="Title" width="600px">
 
 </br>
 
