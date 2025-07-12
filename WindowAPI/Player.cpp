@@ -203,6 +203,13 @@ void Player::TickSkill()
 		{
 			Arrow* arrow = scene->SpawnObject<Arrow>(_cellPos);
 			arrow->SetDir(_dir);
+
+			Creature* creature = scene->GetCreatureAt(GetFrontCellPos());
+			if (creature)
+			{
+				scene->SpawnObject<HitEffect>(GetFrontCellPos());
+				creature->OnDamaged(this);
+			}
 		}
 		else if (_weaponType == WeaponType::Staff)
 		{
