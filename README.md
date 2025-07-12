@@ -1,4 +1,4 @@
-# Window API를 활용한 2D Pixel 게임 제작
+# 2D Zelda
 
 </br>
 
